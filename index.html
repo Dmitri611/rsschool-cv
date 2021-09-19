@@ -1,129 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <title>business card</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./reset.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <title>business card</title>
-</head>
-
-<body>
-  <div class="wrapper">
-    <div class="wrapper__padding">
-      <div class="navigation__list">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#page1">introduction</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#page2">education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#page3">skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#page4">certificates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#page5">hobbies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#page6">example</a>
-          </li>
-        </ul>
-      </div>
-      <header class="header">
-        <div class="logo">
-          <div class="logo__photo">
-            <img src="./images/111111.jpg" alt="my photo" />
-          </div>
-          <div class="logo__txt">
-            <h1 class="logo__txt__name">Dmitry Novikov</h1>
-            <h3 class="logo__txt__prof">VGTU student</h3>
-          </div>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__padding">
+        <div class="navigation__list">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#page1"
+                >introduction</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page2">education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page3">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page4">certificates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page5">hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page6">example</a>
+            </li>
+          </ul>
         </div>
-        <nav class="contacts">
-          <ul class="contacts__flex">
-            <li>
-              <a href="https://mail.google.com/mail/u/0/#inbox" class="decor">dimkanov543@gmail.com</a>
-            </li>
-            <li>
-              <a href="https://mail.google.com/mail/u/0/#inbox">
-                <img src="./images/sm-mail.png" alt="mail" class="hover">
-              </a>
-            </li>
-          </ul>
-          <ul class="contacts__flex">
-            <li>
-              <a href="tel:+375333910514" class="decor">+375333910514 (MTS)</a>
-            </li>
-            <li class="phone">
-              <a href="tel:+375333910514">
-                <img src="./images/sm-phone.png" alt="phone" class="hover">
-              </a>
-            </li>
-          </ul>
-          <ul class="contacts__flex">
-            <li>
-              <a href="https://github.com/Dmitri611" class="decor">https://github.com/Dmitri611</a>
-            </li>
-            <li>
-              <a href="https://github.com/Dmitri611">
-                <img src="./images/md-github-icon.png" alt="github" class="hover">
-              </a>
-            </li>
-          </ul>
-          <ul class="contacts__flex">
-            <li>
-              <a href="https://www.google.by/maps/place/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA"  class="decor">Belarus, Vitebsk</a>
-            </li>
-            <li>
-              <a href="https://www.google.by/maps/place/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA">
-                <img src="./images/sm-home.png" alt="home" class="hover">
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section>
-            <hr>
-        <div id="page1" class="introduction">
-          <div class="el__header">
-            <h2>INTRODUCTION</h2>
+        <header class="header">
+          <div class="logo">
+            <div class="logo__photo">
+              <img src="./images/111111.jpg" alt="my photo" />
+            </div>
+            <div class="logo__txt">
+              <h1 class="logo__txt__name">Dmitry Novikov</h1>
+              <h3 class="logo__txt__prof">VGTU student</h3>
+            </div>
           </div>
-          <div class="el__description">
-            <p>Hi, I'm Dmitry, newbie programmer. I love creating user interfaces and I always try to keep things simple while meeting all the requirements.</p>
+          <nav class="contacts">
+            <ul class="contacts__flex">
+              <li>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="decor"
+                  >dimkanov543@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="https://mail.google.com/mail/u/0/#inbox">
+                  <img src="./images/sm-mail.png" alt="mail" class="hover" />
+                </a>
+              </li>
+            </ul>
+            <ul class="contacts__flex">
+              <li>
+                <a href="tel:+375333910514" class="decor"
+                  >+375333910514 (MTS)</a
+                >
+              </li>
+              <li class="phone">
+                <a href="tel:+375333910514">
+                  <img src="./images/sm-phone.png" alt="phone" class="hover" />
+                </a>
+              </li>
+            </ul>
+            <ul class="contacts__flex">
+              <li>
+                <a href="https://github.com/Dmitri611" class="decor"
+                  >https://github.com/Dmitri611</a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/Dmitri611">
+                  <img
+                    src="./images/md-github-icon.png"
+                    alt="github"
+                    class="hover"
+                  />
+                </a>
+              </li>
+            </ul>
+            <ul class="contacts__flex">
+              <li>
+                <a
+                  href="https://www.google.by/maps/place/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA"
+                  class="decor"
+                  >Belarus, Vitebsk</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.google.by/maps/place/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA"
+                >
+                  <img src="./images/sm-home.png" alt="home" class="hover" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <section>
+          <hr />
+          <div id="page1" class="introduction">
+            <div class="el__header">
+              <h2>INTRODUCTION</h2>
+            </div>
+            <div class="el__description">
+              <p>
+                Hi, I'm Dmitry, newbie programmer. I love creating user
+                interfaces and I always try to keep things simple while meeting
+                all the requirements.
+              </p>
+            </div>
           </div>
-        </div>
-        <hr>
-      </section>
-      <main>
-        <div id="page2" class="education">
-          <div class="el__header">
-            <h2>EDUCATION</h2>
+          <hr />
+        </section>
+        <main>
+          <div id="page2" class="education">
+            <div class="el__header">
+              <h2>EDUCATION</h2>
+            </div>
+            <div class="el__description years">
+              <p>2006-2018</p>
+            </div>
+            <div class="el__header">
+              <h2>Gymnasium, city Chechersk</h2>
+            </div>
+            <div class="el__description years">
+              <p>2018-present</p>
+            </div>
+            <div class="el__header">
+              <h2>Vitebsk State Technological University</h2>
+              <h3>Faculty of Information Technology and Robotics</h3>
+              <h3>specialty: information systems and technologies</h3>
+            </div>
           </div>
-          <div class="el__description years">
-            <p>2006-2018</p>
-          </div>
-          <div class="el__header">
-            <h2>Gymnasium, city Chechersk</h2>
-          </div>
-          <div class="el__description years">
-            <p>2018-present</p>
-          </div>
-          <div class="el__header">
-            <h2>Vitebsk State Technological University</h2>
-            <h3>Faculty of Information Technology and Robotics</h3>
-            <h3>specialty: information systems and technologies</h3>
-          </div>
-        </div>
-        <hr>
-      </main>
-      <section>
+          <hr />
+        </main>
+        <section>
           <div id="page3">
             <h2 class="el__header">SKILLS</h2>
           </div>
@@ -171,46 +197,49 @@
               </ul>
             </div>
           </div>
-          <hr>
-      </section>
-      <section>
-        <div id="page4">
-          <h2 class="el__header">CERTIFICATES</h2>
-        </div>
-        <div class="certificates">
-          <img src="./images/сертификат1.PNG" alt="certificate">
-          <img src="./images/сертификат2.PNG" alt="certificate">
-        </div>
-        <hr>
-        <div id="page5">
-          <h2 class="el__header">HOBBIES</h2>
-        </div>
-        <div class="el__description">
-          <p>In my free time I read books</p>
-          <p>I am engaged in volleyball and light gymnastics</p>
-        </div>
-        <hr>
-        <div id="page6">
-          <h2 class="el__header">EXAMPLE</h2>
-        </div>
-        <div>
-          <img src="./images/Снимок.PNG" alt="example">
-        </div>
-        <hr>
-      </section>
-      <footer class="footer">
-        <div class="copyright">
-          <img src="./images/znachok-s-v-kruzhochke.png" alt="copyright">
-          <p class="copyright__year">2021</p>
-        </div>
-        <div>
-          <a href="https://rs.school/js/">
-            <img class="rs__school" src="./images/rs_school_js.svg" alt="RS School JS">
-          </a>
-        </div>
-      </footer>
+          <hr />
+        </section>
+        <section>
+          <div id="page4">
+            <h2 class="el__header">CERTIFICATES</h2>
+          </div>
+          <div class="certificates">
+            <img src="./images/сертификат1.PNG" alt="certificate" />
+            <img src="./images/сертификат2.PNG" alt="certificate" />
+          </div>
+          <hr />
+          <div id="page5">
+            <h2 class="el__header">HOBBIES</h2>
+          </div>
+          <div class="el__description">
+            <p>In my free time I read books</p>
+            <p>I am engaged in volleyball and light gymnastics</p>
+          </div>
+          <hr />
+          <div id="page6">
+            <h2 class="el__header">EXAMPLE</h2>
+          </div>
+          <div>
+            <img src="./images/Снимок.PNG" alt="example" />
+          </div>
+          <hr />
+        </section>
+        <footer class="footer">
+          <div class="copyright">
+            <img src="./images/znachok-s-v-kruzhochke.png" alt="copyright" />
+            <p class="copyright__year">2021</p>
+          </div>
+          <div>
+            <a href="https://rs.school/js/">
+              <img
+                class="rs__school"
+                src="./images/rs_school_js.svg"
+                alt="RS School JS"
+              />
+            </a>
+          </div>
+        </footer>
+      </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>
