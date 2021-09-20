@@ -1,0 +1,143 @@
+@import url('./style.css');
+
+@media (max-width: 900px) {
+
+    .logo__photo__div {
+        padding-top: 21px;
+    }
+
+    .logo__photo {
+        width: 87px;
+        height: 102px;
+    }
+
+    .cerf1 {
+        width: 500px;
+        height: 400px;
+    }
+
+    .cerf2 {
+        width: 388px;
+        height: 377px;
+    }
+
+    .example__photo {
+        width: 337px;
+        height: 306px;
+    }
+
+    .copyright__year {
+        padding-top: 13px;
+    }
+
+    .item__header {
+        padding-left: 31px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .logo__photo {
+        width: 84px;
+        height: 102px;
+    }
+
+    .cerf1 {
+        width: 470px;
+        height: 367px;
+    }
+
+    .cerf2 {
+        width: 349px;
+        height: 348px;
+    }
+
+    .skills {
+        width: 85%;
+    }
+
+    .item__header {
+        padding-left: 31px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .logo__photo__div {
+        padding-top: 26px;
+    }
+
+    .skills {
+        padding-left: 56px;
+    }
+
+    .cerf1 {
+        width: 464px;
+        height: 336px;
+    }
+
+    .cerf2 {
+        width: 323px;
+        height: 320px;
+    }
+
+    .example__photo {
+        width: 285px;
+        height: 291px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .logo__photo {
+        width: 71px;
+        height: 89px;
+    }
+
+    .logo__txt__name {
+        font-size: 17px;
+    }
+
+    .logo__txt__prof {
+        font-size: 10px;
+    }
+
+    .logo__txt {
+        width: 13px;
+    }
+
+    .cerf1 {
+        width: 443px;
+        height: 279px;
+    }
+
+    .cerf2 {
+        width: 281px;
+        height: 267px;
+    }
+
+    .example__photo {
+        width: 245px;
+        height: 265px;
+    }
+
+    .item__description {
+        line-height: 17px;
+    }
+
+    .item__header {
+        font-size: 12px;
+    }
+
+    .item__ul {
+        font-size: 9px;
+    }
+
+    .el__header {
+        font-size: 15px;
+    }
+
+}
