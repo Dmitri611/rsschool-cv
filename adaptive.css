@@ -110,7 +110,7 @@
     }
 
     .cerf1 {
-        width: 443px;
+        width: 442px;
         height: 279px;
     }
 
@@ -138,6 +138,106 @@
 
     .el__header {
         font-size: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .logo__photo__div {
+        padding-top: 32px;
+    }
+
+    .cerf1 {
+        width: 434px;
+        height: 266px;
+    }
+
+    .cerf2 {
+        width: 221px;
+        height: 252px;
+    }
+
+    .rs_div {
+        padding-left: 71px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .cerf1 {
+        width: 403px;
+        height: 214px;
+    }
+
+    .cerf2 {
+        width: 186px;
+        height: 205px;
+    }
+
+    .example__photo {
+        width: 209px;
+        height: 235px;
+    }
+
+    .rs_div {
+        padding-top: 6px;
+    }
+
+    .copyright {
+        width: 20px;
+        height: 20px;
+    }
+
+    .copyright__year {
+        padding-top: 9px;
+    }
+
+    .skills {
+        padding-left: 76px;
+    }
+
+    .rs_div {
+        padding-top: 0px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .rs_div {
+        padding-top: 3px;
+    }
+
+    .copyright {
+        width: 15px;
+        height: 15px;
+    }
+
+    .copyright__year {
+        padding-top: 7px;
+    }
+
+    .rs_div {
+        padding-top: 0px;
+    }
+
+    .cerf1 {
+        width: 364px;
+        height: 172px;
+    }
+
+    .cerf2 {
+        width: 147px;
+        height: 165px;
+    }
+
+    .skills {
+        padding-left: 130px;
+    }
+
+    .rs_div {
+        padding-top: 2px;
     }
 
 }
