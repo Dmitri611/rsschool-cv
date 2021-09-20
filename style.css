@@ -22,7 +22,7 @@
     display: flex;
 }
 
-.logo__photo {
+.logo__photo__div {
     display: flex;
     width: 113px;
     height: 113px;
@@ -276,3 +276,4 @@ hr {
   .menu__item:hover {
     background-color: #CFD8DC;
   }
+
